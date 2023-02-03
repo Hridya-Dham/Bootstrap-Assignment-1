@@ -1,0 +1,10 @@
+/* ---------------------- */
+/* ADDING BORDERS TO ROWS */
+/* ---------------------- */
+.top-border {
+    border: 1px solid black;
+}
+
+.right-border {
+    border-right: 2px solid black;
+}

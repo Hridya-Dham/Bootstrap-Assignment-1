@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <!-- main container -->
+        <div class="container-fluid"> 
+            
+            <!-- row #1 -->
+            <div class="row top-border" style="background-color: lightgrey;"> 
+
+                <!-- row #1 col #1 -->
+                <div class="col-lg-6 col-md-6 col-6 right-border"> 
+                    <h1 class="text-center">FORM</h1>
+                </div>
+
+                <!-- row #1 col #2 -->
+                <div class="col-lg-6 col-md-6 col-6"> 
+                    <h1 class="text-center">TABLE</h1>
+                </div>
+
+            </div>
+
+            <!-- row #2 -->
+            <div class="row vh-100"> 
+
+                <!-- row #2 col #1 -->
+                <div class="col-lg-6 col-md-6 col-6 right-border"> 
+                    <br>
+                    <form>
+                        <!-- #NAME -->
+                        <div class="row mb-3">
+                          <label for="name" class="col-sm-2 col-form-label">Name :</label>
+                          <div class="col-sm-10">
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name...">
+                          </div>
+                        </div>
+
+                        <!-- #PHONE NO. -->
+                        <div class="row mb-3">
+                          <label for="phno" class="col-sm-2 col-form-label">Phone No. :</label>
+                          <div class="col-sm-10">
+                            <input type="tel" class="form-control" id="phno" placeholder="Enter your phno..." pattern="[0-9]{10}">
+                          </div>
+                        </div>
+
+                        <!-- #DATE OF BIRTH -->
+                        <div class="row mb-3">
+                            <label for="dob" class="col-sm-2 col-form-label">DOB :</label>
+                            <div class="col-sm-10">
+                              <input type="date" class="form-control" id="dob">
+                            </div>
+                          </div>
+
+                        <!-- #ADDRESS -->
+                        <div class="row mb-3">
+                            <label for="add" class="col-sm-2 col-form-label">Address :</label>
+                            <div class="col-sm-10">
+                                <textarea class="form-control" id="add"></textarea>
+                            </div>
+                        </div>
+
+                        <!-- #GENDER -->
+                        <fieldset class="row mb-3">
+                            <legend class="col-form-label col-sm-2 pt-0">Gender :</legend>
+                            <div class="col-sm-10">
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1">
+                                <label class="form-check-label" for="gridRadios1">
+                                  Male
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                <label class="form-check-label" for="gridRadios2">
+                                  Female
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                                <label class="form-check-label" for="gridRadios3">
+                                  Others
+                                </label>
+                              </div>
+                            </div>
+                        </fieldset>
+
+                        <!-- #CITY -->
+                        <div class="row mb-3">
+                            <label for="add" class="col-sm-2 col-form-label">City :</label>
+                            <div class="col-sm-10">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Select City</option>
+                                    <option value="1">Delhi</option>
+                                    <option value="2">Mumbai</option>
+                                    <option value="3">Chandigarh</option>
+                                    <option value="4">Bangalore</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- #HOBBIES -->
+                        <div class="row mb-3">
+                            <label for="add" class="col-sm-2 col-form-label">Hobbies :</label>
+                            <div class="col col-sm-10">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                      Music
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                      Sports
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                      Reading
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                      Video Games
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                      Gymming
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- #BUTTONS -->
+                        <div class="row mb-3">
+                            <div class="col-sm-4">
+                                
+                            </div>
+                            <div class="col col-sm-3">
+                                <button type="submit" class="btn btn-success btn-lg">Submit</button>
+                              </div>
+                            <div class="col col-sm-3">
+                                <button type="reset" class="btn btn-danger btn-lg">Reset</button>
+                            </div>
+                        </div>
+
+                      </form>   
+                </div>
+                
+                <!-- row #2 col #2 -->
+                <div class="col-lg-6 col-md-6 col-6"> 
+                    <br>
+                    <table class="table">
+
+                        <thead>
+                          <tr>
+                            <th scope="col">S.No.</th> 
+                            <th scope="col">Name</th> 
+                            <th scope="col">Phone No.</th>
+                            <th scope="col">Gender</th> 
+                            <th scope="col">DOB</th> 
+                            <th scope="col">Interets</th>
+                          </tr>
+                        </thead>
+
+                        <tbody>
+                          <tr>
+                            <th scope="row">#1</th>
+                            <td>Hridya Dham</td>
+                            <td>9711162514</td>
+                            <td>Male</td>
+                            <td>18-Nov-2000</td>
+                            <td>
+                                Video Games
+                                <br>
+                                Outdoor Sports
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">#2</th>
+                            <td>Kunal Khandelwal</td>
+                            <td>9514162314</td>
+                            <td>Male</td>
+                            <td>15-Aug-2001</td>
+                            <td>
+                                Video Games
+                                <br>
+                                Sleeping
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">#3</th>
+                            <td>Ishita Kanojia</td>
+                            <td>9821262514</td>
+                            <td>Female</td>
+                            <td>02-Dec-2000</td>
+                            <td>
+                                Content Creation
+                                <br>
+                                Travelling
+                                <br>
+                                Music
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">#4</th>
+                            <td>Mehar Mutreja</td>
+                            <td>9928262534</td>
+                            <td>Male</td>
+                            <td>15-Dec-2000</td>
+                            <td>
+                                Music
+                                <br>
+                                Video Games
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">#5</th>
+                            <td>Vaibhav Shakiya</td>
+                            <td>9938272534</td>
+                            <td>Male</td>
+                            <td>10-Feb-2000</td>
+                            <td>
+                                Art
+                                <br>
+                                Video Games
+                                <br>
+                                Music
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/js/bootstrap.min.js"></script>
+    </body>
+</html>
